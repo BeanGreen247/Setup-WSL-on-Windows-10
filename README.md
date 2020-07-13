@@ -24,12 +24,12 @@ Run Powershell as administrator and type this into Powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 ```
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
+Invoke-WebRequest -Uri  https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
 ```
 ```
 Add-AppxPackage .\Ubuntu.appx
 ```
-next run `Ubuntu 18.04` app from the star menu or by searching `ubuntu 18.04`
+next run `Ubuntu 20.04` app from the star menu or by searching `ubuntu 20.04`
 
 wait till it gets installed
 
